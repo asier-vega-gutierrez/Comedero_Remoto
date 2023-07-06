@@ -1,0 +1,8 @@
+Se program que el se ejecute la aplicacion cada hora
+CRONTAB:
+
+    @reboot /home/pi/Python/ProyectoFinal/src/RPIpublicador/appComedero.py
+    0 * * * * /home/pi/Python/ProyectoFinal/src/RPIpublicador/appComedero.py
+
+Tenemos que darle permisos de ejecuciona al fichero
+    chmod a+x appComedero.py
